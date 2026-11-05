@@ -1,7 +1,7 @@
 - name: ping the server
   hosts: roboshop_frontend
   become: yes
-  serial: 4
+  serial: 1
   tasks:
   - name: ping the server
     ping:
